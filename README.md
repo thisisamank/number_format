@@ -1,5 +1,7 @@
 # number_format
 
+![build status](https://github.com/thisisamank/number_format/workflows/build/badge.svg)
+
 A new Flutter package project.
 
 ## Getting Started
