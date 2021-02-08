@@ -4,10 +4,10 @@ import 'package:number_format/number_format.dart';
 
 void main() {
   test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
-    expect(() => calculator.addOne(null), throwsNoSuchMethodError);
+    final formatter = NumberFormatter();
+    expect(formatter.addOne(2), 3);
+    expect(formatter.addOne(-7), -6);
+    expect(formatter.addOne(0), 1);
+    //expect(() => formatter.addOne(null!), throwsNoSuchMethodError);
   });
 }
